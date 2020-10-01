@@ -1,0 +1,5 @@
+module ex1(w0, w1, led0);
+	input w0, w1;
+	output led0;
+	and (led0, w0, w1);
+endmodule;
